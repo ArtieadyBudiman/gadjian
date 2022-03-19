@@ -21,16 +21,16 @@ const CardUser=(props)=>{
                </Card.Footer>
                <img className="rounded-circle mx-4 my-2" src={data.picture.large} alt="" />
                <Card.Body>
-                  <Card.Text>
-                     <div className="mb-0 fw-bold text-sencondary">Nama</div>
+                  <div className="card-text">
+                     <div className="mb-0 fw-bold text-secondary">Nama</div>
                      <div className="mb-0 text-gray">{`${data.name.first} ${data.name.last}`}</div>
-                     <div className="mb-0 fw-bold text-sencondary">Telephone</div>
+                     <div className="mb-0 fw-bold text-secondary">Telephone</div>
                      <div className="mb-0 text-gray">{data.cell}</div>
-                     <div className="mb-0 fw-bold text-sencondary">Birthday</div>
+                     <div className="mb-0 fw-bold text-secondary">Birthday</div>
                      <div className="mb-0 text-gray">{data.dob.date}</div>
-                     <div className="mb-0 fw-bold text-sencondary">Email</div>
+                     <div className="mb-0 fw-bold text-secondary">Email</div>
                      <div className="mb-0 text-gray text-truncate">{data.email}</div>
-                  </Card.Text>
+                  </div>
                </Card.Body>
             </Card>
       </>

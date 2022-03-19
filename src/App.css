@@ -31,6 +31,9 @@ aside a{
 .cardUser{
    width:15rem;
 }
+.miniCard{
+   display:none;
+}
 
 /* Break Point */
 @media screen and (max-width: 425px) {
@@ -40,5 +43,15 @@ aside a{
   .navbarSection{
      padding-left:25px;
      padding-right:25px;
+  }
+  .cardWrapper,.pagination {
+     display:none;
+  }
+  .pagination{
+     display:none;
+  }
+  .miniCard{
+     display:block;
+     width:23rem;
   }
  }
