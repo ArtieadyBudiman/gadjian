@@ -1,0 +1,44 @@
+
+.navbarSection{
+   height:70px;
+   background-color: white;
+}
+.logo{
+   width:100px;
+}
+.account img {
+   width:50px;
+}
+aside{
+   /* width:20%; */
+   background-color: white;
+   height:100vh;
+}
+aside a{
+   text-decoration: none;
+   color: gray;
+   gap:10px;
+}
+.headbar{
+   width:100%;
+   display:flex;
+}
+.addButton a{
+   text-decoration: none;
+   gap:10px;
+}
+
+.cardUser{
+   width:15rem;
+}
+
+/* Break Point */
+@media screen and (max-width: 425px) {
+   .helloUser, .userName,.side {
+     display:none;
+   }
+  .navbarSection{
+     padding-left:25px;
+     padding-right:25px;
+  }
+ }
